@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 1em;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1em;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .candidate {
+    padding: 1em;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .candidate:last-child {
+    border-bottom: none;
+  }
+  
+  #vote-results {
+    margin-top: 2em;
+    padding: 1em;
+    background: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .result {
+    padding: 0.5em;
+    border-bottom: 1px solid #ddd;
+  }
+  .result:last-child {
+    border-bottom: none;
+  }
